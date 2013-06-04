@@ -186,8 +186,10 @@ public class Tokenizer {
         /**
          * The default resource resolver (relative to this class).
          */
-        private ResourceResolver resolver = new ClassLoaderResolver(this.getClass());
-        
+        private ResourceResolver resolver =
+            new XzCompressedResolver(
+                new ClassLoaderResolver(this.getClass()));
+
         /**
          * Set tokenization mode
          * Default: NORMAL

@@ -28,13 +28,8 @@ import com.atilika.kuromoji.dict.UnknownDictionary;
 import com.atilika.kuromoji.trie.DoubleArrayTrie;
 
 public class DictionaryBuilder {
-	
 	public enum DictionaryFormat { IPADIC, UNIDIC }
-	
-	public DictionaryBuilder() {
-		
-	}
-	
+
 	public void build(DictionaryFormat format,
 					  String inputDirname,
 					  String outputDirname,
