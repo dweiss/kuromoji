@@ -5,6 +5,8 @@ Copyright © 2010-2012 Atilika Inc.  All rights reserved.
 
 This product includes software developed by Atilika Inc.
 
+This product includes XZ decoder by Lasse Collin and/or Igor Pavlov.
+
 This software also includes a binary and/or source version of data from
 
   mecab-ipadic-2.7.0-20070801
